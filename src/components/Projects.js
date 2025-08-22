@@ -4,7 +4,7 @@ import { Database, Brain, Code, ExternalLink, Github, Dumbbell, Sparkles } from 
 const Projects = () => {
   const projects = [
     {
-      title: "City Data Analysis Dashboard",
+      title: "UrbanInsight: AI-Powered Real Estate Market Intelligence Platform",
       description: "Full-stack data analytics dashboard for real estate market research with demographic, employment, and crime trend analysis across U.S. cities.",
       technologies: ['Python', 'Pandas', 'Streamlit'],
       icon: Database,
@@ -24,7 +24,7 @@ const Projects = () => {
       githubUrl: "https://github.com/adanWu2005/Facial-Landmark-Comparer" // Replace with your actual repo
     },
     {
-      title: "Visual Algorithm Sorter",
+      title: "VSAlgo: Interactive Sorting Algorithm Visualizer",
       description: "Interactive visualization tool for sorting algorithms including Bubble Sort, Merge Sort, and Insertion Sort with real-time execution display.",
       technologies: ['ReactJS', 'CSS'],
       icon: Code,
@@ -34,13 +34,13 @@ const Projects = () => {
       githubUrl: "https://github.com/adanWu2005/Visual-Algorithm-Sorter" // Replace with your actual repo
     },
         {
-      title: "Full-Stack Workout Tracker",
-      description: "Interactive workout tracker that allows users to create custom workout lists with secure authentication. Features personalized workout routines accessible across multiple devices.",
-      technologies: ['ReactJS', 'Node.js', 'MongoDB', 'JWT'],
+      title: "FitterJitters: AI Food Recognition and Biometric Integration Hub",
+      description: "Full-stack fitness tracking application with AI food recognition and Fitbit integration for comprehensive health monitoring.",
+      technologies: ['ReactJS', 'Node.js', 'Fitbit API', 'JWT'],
       icon: Dumbbell,
       gradient: "from-orange-500 to-red-600",
       techColorClasses: "bg-orange-100 text-orange-800",
-      websiteUrl: "https://shapeshift-h0yu.onrender.com/", // Replace with your actual URL
+      websiteUrl: "https://fitterjitter.onrender.com/", // Replace with your actual URL
       githubUrl: "https://github.com/adanWu2005/Shapeshift-Workout-Tracker-Website" // Replace with your actual repo
     },
     {
