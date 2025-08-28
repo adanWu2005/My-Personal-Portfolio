@@ -1,8 +1,18 @@
 import React from 'react';
-import { Database, Brain, Code, ExternalLink, Github, Dumbbell, Sparkles } from 'lucide-react';
+import { Database, Brain, Code, ExternalLink, Github, Dumbbell, Sparkles, DollarSign } from 'lucide-react';
 
 const Projects = () => {
   const projects = [
+    {
+      title: "FinFlow: Financial Management Platform",
+      description: "Comprehensive financial tracking system with automatic transaction categorization and real-time bank account synchronization. Features 100% automated transaction processing with Plaid API integration, secure JWT authentication, and intelligent auto-tagging algorithms with spending breakdowns and visual data representations.",
+      technologies: ['Python', 'Django', 'ReactJS', 'PostgreSQL', 'Plaid API'],
+      icon: DollarSign,
+      gradient: "from-emerald-500 to-emerald-600",
+      techColorClasses: "bg-emerald-100 text-emerald-800",
+      websiteUrl: "https://finflow-frontend-9de3aa5801c7.herokuapp.com/",
+      githubUrl: "https://github.com/adanWu2005/Spending-Tracker-Backend"
+    },
     {
       title: "UrbanInsight: AI-Powered Real Estate Market Intelligence Platform",
       description: "Full-stack data analytics dashboard for real estate market research with demographic, employment, and crime trend analysis across U.S. cities.",
